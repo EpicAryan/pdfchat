@@ -12,8 +12,8 @@ export default async function Home() {
     <div className="w-screen max-h-screen ">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center text-center text-white">
-          <div className="flex items-center">
-            <h1 className="mr-3 text-3xl lg:text-5xl font-semibold">Chat with your PDF</h1>
+          <div className="flex items-center mb-2">
+            <h1 className="mr-3 text-3xl lg:text-5xl font-semibold">Talk with your PDF</h1>
             <UserButton />
           </div>
           <div className="flex mt-2">

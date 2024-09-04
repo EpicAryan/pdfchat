@@ -18,8 +18,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${inter.className} bg-gradient-to-r from-slate-700 to-slate-900`}>
-        <SignedOut>
-           
+          <SignedOut>
           </SignedOut>
           <SignedIn>
             <UserButton />
