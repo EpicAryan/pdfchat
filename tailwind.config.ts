@@ -18,6 +18,10 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        // Custom gradients or background images
+        'custom-gradient': 'linear-gradient(to right, #ff7e5f, #feb47b)',
+      },
       colors: {
         button: '#d90f0f',
         border: "hsl(var(--border))",
