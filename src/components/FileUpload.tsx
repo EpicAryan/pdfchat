@@ -72,12 +72,13 @@ const FileUpload =  () => {
                 <input {...getInputProps()}/>
                 {(uploading || mutation.isPending) ? (
                     <>
-                        <Loader2 className='w-10 h-10 text-red-500 animate-spin'/>
+                        <Loader2 className='w-10 h-10 text-white animate-spin'/>
+                        <p className='mt-2 text-lg font-semibold text-slate-900'>Uploading your pdf....</p>
                     </>
                 ):(
                     <>
-                        <Upload className='w-10 h-10 text-slate-500 '/>
-                        <p className='mt-2 text-sm '>Drag & drop, or click to select PDF</p>
+                        <Upload className='w-10 h-10 text-slate-700 '/>
+                        <p className='mt-2 text-lg text-slate-800 font-semibold'>Drag & drop, or click to select PDF</p>
                     </>
                 )}
                 
